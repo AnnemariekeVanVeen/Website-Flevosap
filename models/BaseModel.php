@@ -18,9 +18,9 @@ abstract class BaseModel
         $this->config = [
 
             'hostname' => 'localhost',
-            'user' => 'annemarieke',
-            'passwd' => 'Calente2007!',
-            'dbname' => 'annemarieke_flevosap'
+            'user' => 'USERNAME',
+            'passwd' => 'PASSWORD',
+            'dbname' => 'DATABASENAME'
         ];
         $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
         $dsn = 'mysql:host=localhost;dbname=' . $this->config['dbname'];
